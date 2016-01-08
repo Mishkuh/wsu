@@ -1,0 +1,24 @@
+﻿Build started 9/29/2014 9:13:11 PM.
+     1>Project "C:\Users\Mishkuh\documents\visual studio 2012\Projects\WIENS_PA03\WIENS_PA03\WIENS_PA03.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt MyFunctions.c MySource.c
+         MySource.c
+     1>c:\users\mishkuh\documents\visual studio 2012\projects\wiens_pa03\wiens_pa03\mysource.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+         MyFunctions.c
+     1>c:\users\mishkuh\documents\visual studio 2012\projects\wiens_pa03\wiens_pa03\myfunctions.c(147): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\mishkuh\documents\visual studio 2012\projects\wiens_pa03\wiens_pa03\myfunctions.c(153): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mishkuh\documents\visual studio 2012\projects\wiens_pa03\wiens_pa03\myfunctions.c(313): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mishkuh\documents\visual studio 2012\projects\wiens_pa03\wiens_pa03\myfunctions.c(385): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mishkuh\documents\visual studio 2012\Projects\WIENS_PA03\Debug\WIENS_PA03.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mishkuh\documents\visual studio 2012\Projects\WIENS_PA03\Debug\WIENS_PA03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mishkuh\documents\visual studio 2012\Projects\WIENS_PA03\Debug\WIENS_PA03.lib" /MACHINE:X86 Debug\MyFunctions.obj
+         Debug\MySource.obj
+         WIENS_PA03.vcxproj -> C:\Users\Mishkuh\documents\visual studio 2012\Projects\WIENS_PA03\Debug\WIENS_PA03.exe
+     1>Done Building Project "C:\Users\Mishkuh\documents\visual studio 2012\Projects\WIENS_PA03\WIENS_PA03\WIENS_PA03.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.43

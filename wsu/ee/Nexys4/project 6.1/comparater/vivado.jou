@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Sun Apr 05 16:09:25 2015
+# Process ID: 10040
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.1/comparater/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.1/comparater\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.1/comparater/Comparater.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

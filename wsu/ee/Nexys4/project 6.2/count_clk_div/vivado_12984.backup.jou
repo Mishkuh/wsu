@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Mon Apr 06 22:13:40 2015
+# Process ID: 7256
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.2/count_clk_div/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.2/count_clk_div\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.2/count_clk_div/Count_clk_div.xpr}

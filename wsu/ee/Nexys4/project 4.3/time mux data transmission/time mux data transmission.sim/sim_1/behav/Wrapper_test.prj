@@ -1,0 +1,7 @@
+verilog xil_defaultlib  "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/Mux_4_1.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/counter.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/wrapper.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sim_1/new/Wrapper_test.v"
+verilog xil_defaultlib "/opt/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v"

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a100tcsg324-1" LaunchTime="1414141337">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_2/constrs_in.xml"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_2/impl_2.psg"/>
+  <File Type="PA-TCL" Name="Mux_4_1.tcl"/>
+  <File Type="OPT-DCP" Name="Mux_4_1_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Mux_4_1_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Mux_4_1_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Mux_4_1_drc_pwropted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Mux_4_1_postroute_physopt.dcp"/>
+  <File Type="BITSTR-BMM" Name="Mux_4_1_bd.bmm"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Mux_4_1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BITSTR-MMI" Name="Mux_4_1.mmi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Mux_4_1_timing_summary_postroute_physopted.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Mux_4_1.sysdef"/>
+  <File Type="BG-BIT" Name="Mux_4_1.bit"/>
+  <File Type="BG-BIN" Name="Mux_4_1.bin"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Mux_4_1_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Mux_4_1.msk"/>
+  <File Type="BITSTR-RBT" Name="Mux_4_1.rbt"/>
+  <File Type="PHYSOPT-DCP" Name="Mux_4_1_physopt.dcp"/>
+  <File Type="BITSTR-NKY" Name="Mux_4_1.nky"/>
+  <File Type="PHYSOPT-DRC" Name="Mux_4_1_drc_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="Mux_4_1.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="Mux_4_1.drc"/>
+  <File Type="PLACE-DCP" Name="Mux_4_1_placed.dcp"/>
+  <File Type="ROUTE-SIMILARITY" Name="Mux_4_1_incremental_reuse_routed.rpt"/>
+  <File Type="BG-BGN" Name="Mux_4_1.bgn"/>
+  <File Type="ROUTE-TIMING-PB" Name="Mux_4_1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Mux_4_1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Mux_4_1_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Mux_4_1_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Mux_4_1_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Mux_4_1_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Mux_4_1_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Mux_4_1_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Mux_4_1_routed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Mux_4_1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Mux_4_1_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Mux_4_1_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Mux_4_1_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Mux_4_1_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Mux_4_1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Mux_4_1_io_placed.rpt"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1378326382"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

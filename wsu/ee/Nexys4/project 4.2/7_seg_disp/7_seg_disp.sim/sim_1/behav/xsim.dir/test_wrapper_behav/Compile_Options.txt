@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "test_wrapper_behav" --prj "/home/mikel/Desktop/7_seg_disp/7_seg_disp.sim/sim_1/behav/test_wrapper.prj" "xil_defaultlib.test_wrapper" "xil_defaultlib.glbl" 

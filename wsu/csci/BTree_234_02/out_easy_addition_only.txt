@@ -1,0 +1,26 @@
+Name="Student I", ID=16
+Name="Student Q", ID=19
+Name="Student R", ID=22
+Name="Student A", ID=23
+Name="Student G", ID=24
+Name="Student C", ID=25
+Name="Student E", ID=44
+Name="Student O", ID=45
+Name="Student L", ID=58
+Name="Student K", ID=61
+Name="Student F", ID=62
+Name="Student B", ID=64
+Name="Student P", ID=69
+Name="Student J", ID=77
+Name="Student M", ID=79
+Name="Student T", ID=88
+Name="Student S", ID=89
+Name="Student H", ID=91
+Name="Student N", ID=94
+Name="Student D", ID=99
+
+< 61 77 >
+< 23 25 >< 64 >< 91 >
+< 16 19 22 >< 24 >< 44 45 58 >< 62 >< 69 >< 79 88 89 >< 94 99 >
+Closing input file
+Done

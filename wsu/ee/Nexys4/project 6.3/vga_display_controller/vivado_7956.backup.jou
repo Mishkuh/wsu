@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Fri Apr 24 16:49:41 2015
+# Process ID: 7984
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.xpr}

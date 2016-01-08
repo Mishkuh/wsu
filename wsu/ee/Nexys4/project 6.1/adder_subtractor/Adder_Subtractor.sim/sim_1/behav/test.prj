@@ -1,0 +1,4 @@
+verilog xil_defaultlib  "/home/mikel/Desktop/Project 6/Project 6.1/Adder_Subtractor/Adder_Subtractor.srcs/sources_1/imports/new/Full_adder.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Project 6/Project 6.1/Adder_Subtractor/Adder_Subtractor.srcs/sources_1/imports/new/Adder_subtractor.v"
+verilog xil_defaultlib  "/home/mikel/Desktop/Project 6/Project 6.1/Adder_Subtractor/Adder_Subtractor.srcs/sim_1/new/test.v"
+verilog xil_defaultlib "/opt/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v"

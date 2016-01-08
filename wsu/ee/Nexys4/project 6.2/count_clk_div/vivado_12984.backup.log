@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Mon Apr 06 22:13:40 2015
+# Process ID: 7256
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.2/count_clk_div/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.2/count_clk_div\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.2/count_clk_div/Count_clk_div.xpr}
+INFO: [Project 1-313] Project file moved from '/home/mikel/Desktop/Project 6/Project 6.2/Count_clk_div' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Count_clk_div.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 753.816 ; gain = 185.715
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 08 15:42:31 2015...

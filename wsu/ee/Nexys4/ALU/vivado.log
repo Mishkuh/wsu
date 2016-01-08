@@ -1,0 +1,2052 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Thu Apr 16 18:41:26 2015
+# Process ID: 12812
+# Log file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:44]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:36]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:37]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:39]
+ERROR: [VRFC 10-426] cannot find port Bout on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:40]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:44]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:45]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:46]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:47]
+ERROR: [VRFC 10-426] cannot find port Bout on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:48]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:52]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:53]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:54]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:55]
+ERROR: [VRFC 10-426] cannot find port Bout on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:56]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:60]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:61]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:62]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:63]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:44]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 18:47:39 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.375 ; gain = 0.141
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 18:47:39 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 760.355 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 760.355 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 760.355 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register adderR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:61]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register adderR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:61]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:62]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:62]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register adderR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register adderR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:69]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:69]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:63]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:63]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register adderR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:69]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register adderR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:69]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:70]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register addercout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:70]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:77]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:77]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.344 ; gain = 0.004
+
+    while executing
+"webtalk_transmit -clientid 702871838 -regid "211027803_0_0_552" -xml C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/AL..."
+    (file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:00:28 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 769.438 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 769.438 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 769.438 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:01:36 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 62.953 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:01:36 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 769.438 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 769.438 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:05:02 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.207 ; gain = 0.004
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:05:02 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:07:50 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.227 ; gain = 0.004
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:07:50 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:11:06 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 63.207 ; gain = 0.137
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:11:06 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.633 ; gain = 0.133
+
+    while executing
+"webtalk_transmit -clientid 796353321 -regid "211027803_0_0_552" -xml C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/AL..."
+    (file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:15:53 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 784.852 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:17:40 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.043 ; gain = 0.008
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:17:40 2015...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+run all
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:20:38 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.340 ; gain = 0.156
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:20:38 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:22:14 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.207 ; gain = 0.141
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:22:14 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 784.852 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Rtemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net tempCout is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:49]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Rtemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:55]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net tempCout is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:56]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcoutTemp is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:80]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcoutTemp is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:80]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net adderRtemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:48]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net addercoutTemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:49]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net subRtemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:55]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net subcoutTemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:56]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net addercoutTemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:49]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net subRtemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:55]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net subcoutTemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:56]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:31:06 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 63.277 ; gain = 0.012
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:31:06 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 784.852 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:34:24 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 63.023 ; gain = 0.012
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:34:24 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 784.852 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 784.852 ; gain = 0.000
+run all
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 785.309 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net tempCout is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:52]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net tempCout is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:59]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:37:20 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.426 ; gain = 0.004
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:37:20 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 785.309 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 785.309 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 785.309 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:39:43 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.254 ; gain = 0.016
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:39:43 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 785.309 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 785.309 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 786.289 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:42:07 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.250 ; gain = 0.145
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:42:07 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 786.289 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 786.289 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 786.289 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register R is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:60]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register R is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:60]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register tempR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:62]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register tempR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:62]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register tempR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register tempR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register tempR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:74]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register tempR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:74]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Rtemp is not permitted [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:90]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:47:38 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.082 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:47:38 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 786.289 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 786.289 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 786.289 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 19:52:14 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.047 ; gain = 0.004
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 19:52:14 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 786.289 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 793.578 ; gain = 7.289
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 794.371 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 20:01:55 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.191 ; gain = 0.004
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 20:01:55 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 794.371 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 803.176 ; gain = 8.805
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 803.188 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1412] syntax error near end [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:68]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 16 20:04:34 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 63.477 ; gain = 0.004
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 20:04:34 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 803.188 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 803.188 ; gain = 0.000
+run all
+add_wave {{/ALU_test/goTime}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 837.219 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Bin [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.FS
+Compiling module xil_defaultlib.Subtractor
+Compiling module xil_defaultlib.My_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 63.367 ; gain = 0.020
+
+    while executing
+"webtalk_transmit -clientid 2949401419 -regid "211027803_0_0_552" -xml C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/A..."
+    (file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 16 20:13:07 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 837.219 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_test_behav -key {Behavioral:sim_1:Functional:ALU_test} -tclbatch {ALU_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source ALU_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 837.219 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 942.668 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 16 20:16:13 2015...

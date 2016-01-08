@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Fri May 01 16:08:01 2015
+# Process ID: 3376
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 4/project 4.2/7_seg_disp/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 4/project 4.2/7_seg_disp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/mikey/Documents/EE214/EE 214/Project 4/project 4.2/7_seg_disp/7_seg_disp.xpr}

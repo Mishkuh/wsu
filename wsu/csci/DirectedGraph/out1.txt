@@ -1,0 +1,111 @@
+Opening file in1.txt
+Added node: Canada
+Added node: Alabama
+Added node: Alaska
+Added node: Arizona
+Added node: Arkansas
+Added node: California
+Added node: Colorado
+Added node: Connecticut
+Added node: Delaware
+Added node: Florida
+Added node: Georgia
+Added node: Hawaii
+Added node: Idaho
+Added node: Illinois
+Added node: Indiana
+Added node: Iowa
+Added node: Kansas
+Added node: Kentucky
+Added node: Louisiana
+Added node: Maine
+Added node: Maryland
+Added node: Massachusetts
+Added node: Michigan
+Added node: Minnesota
+Added node: Mississippi
+Added node: Missouri
+Added node: Montana
+Added node: Nebraska
+Added node: Nevada
+Added node: New Hampshire
+Added node: New Jersey
+Added node: New Mexico
+Added node: New York
+Added node: North Carolina
+Added node: North Dakota
+Added node: Ohio
+Added node: Oklahoma
+Added node: Oregon
+Added node: Pennsylvania
+Added node: Rhode Island
+Added node: South Carolina
+Added node: South Dakota
+Added node: Tennessee
+Added node: Texas
+Added node: Utah
+Added node: Vermont
+Added node: Virginia
+Added node: Washington
+Added node: West Virginia
+Added node: Wisconsin
+Added node: Wyoming
+Added edge from Washington to Idaho
+Added edge from Idaho to Washington
+Added edge from Washington to Oregon
+Added edge from Oregon to Washington
+Added edge from Oregon to Idaho
+Added edge from Idaho to Oregon
+Added edge from Oregon to Nevada
+Added edge from Nevada to Oregon
+Added edge from Oregon to California
+Added edge from California to Oregon
+Added edge from California to Nevada
+Added edge from Nevada to California
+Added edge from California to Arizona
+Added edge from Arizona to California
+Added edge from Idaho to Montana
+Added edge from Montana to Idaho
+Added edge from Idaho to Wyoming
+Added edge from Wyoming to Idaho
+Added edge from Idaho to Utah
+Added edge from Utah to Idaho
+Added edge from Idaho to Nevada
+Added edge from Nevada to Idaho
+Added edge from Nevada to Utah
+Added edge from Utah to Nevada
+Added edge from Nevada to Arizona
+Added edge from Arizona to Nevada
+Added edge from Arizona to Utah
+Added edge from Utah to Arizona
+Added edge from Arizona to New Mexico
+Added edge from New Mexico to Arizona
+Added edge from Montana to North Dakota
+Added edge from North Dakota to Montana
+Added edge from Montana to South Dakota
+Added edge from South Dakota to Montana
+Added edge from Montana to Wyoming
+Added edge from Wyoming to Montana
+Added edge from Utah to Wyoming
+Added edge from Wyoming to Utah
+Added edge from Utah to Colorado
+Added edge from Colorado to Utah
+Added edge from Washington to Canada
+Added edge from Idaho to Canada
+Added edge from Montana to Canada
+Added edge from North Dakota to Canada
+Degree of Nevada is 10
+Shortest path from California to Utah:
+California -> Nevada -> Utah
+Shortest path from Washington to New Mexico:
+Washington -> Oregon -> California -> Arizona -> New Mexico
+Shortest path from Montana to Washington:
+Montana -> Idaho -> Washington
+Shortest path (capitals) from Washington to New Mexico:
+Olympia -> Salem -> Sacramento -> Phoenix -> Santa Fe
+Shortest path (capitals) from Arizona to Canada:
+Phoenix -> Salt Lake City -> Boise -> Ottawa
+Shortest path (capitals) from Canada to Arizona:
+No such path exists
+Closing input file
+Done

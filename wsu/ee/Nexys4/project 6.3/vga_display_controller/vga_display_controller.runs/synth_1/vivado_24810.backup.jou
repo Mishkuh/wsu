@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu Dec  4 15:53:17 2014
+# Process ID: 23440
+# Log file: /home/mikel/Desktop/Project 6/Project 6.3/VGA_Display_controller/VGA_Display_controller.runs/synth_1/VGA_Controller.vds
+# Journal file: /home/mikel/Desktop/Project 6/Project 6.3/VGA_Display_controller/VGA_Display_controller.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source VGA_Controller.tcl

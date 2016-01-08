@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Sun Apr 05 16:09:25 2015
+# Process ID: 10040
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.1/comparater/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.1/comparater\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.1/comparater/Comparater.xpr}
+INFO: [Project 1-313] Project file moved from '/home/mikel/Desktop/Project 6/Project 6.1/Comparater' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'Comparater.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 05 16:34:51 2015...

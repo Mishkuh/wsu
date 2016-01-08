@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Wrapper_test_behav" --prj "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.sim/sim_1/behav/Wrapper_test.prj" "xil_defaultlib.Wrapper_test" "xil_defaultlib.glbl" 

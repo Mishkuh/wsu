@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Mux_test_behav" --prj "/home/mikel/Desktop/Project 4/Project 4.1/Mux 4_1/Mux 4_1.sim/sim_1/behav/Mux_test.prj" "xil_defaultlib.Mux_test" "xil_defaultlib.glbl" 

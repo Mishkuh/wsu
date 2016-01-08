@@ -1,0 +1,407 @@
+
+Warning: ExploreAhead works best with Microsoft WSH 5.6 or higher. Downloads
+         for upgrading your Windows Scripting Host can be found here: 
+             http://msdn.microsoft.com/downloads/list/webdev.asp
+
+
+*** Running vivado
+    with args -log VGA_Controller.vds -m64 -mode batch -messageDb vivado.pb -source VGA_Controller.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+  **** IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source VGA_Controller.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.cache/wt} [current_project]
+# set_property parent.project_path {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.xpr} [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/dff.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Vert_Count.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Vert_cmp.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/M_stand.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Hor_Count.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Hor_cmp.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/cmp.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/clk_divider.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/ClkDivider.v}
+#   {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/VGA_Controller.v}
+# }
+# read_xdc {{C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc}}
+# set_property used_in_implementation false [get_files {{C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc}}]
+# catch { write_hwdef -file VGA_Controller.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top VGA_Controller -part xc7a100tcsg324-1
+Command: synth_design -top VGA_Controller -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 234.039 ; gain = 74.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/VGA_Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'ClkDivider' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/ClkDivider.v:23]
+	Parameter constantNumber bound to: 50000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClkDivider' (1#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/ClkDivider.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_divider' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/clk_divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'dff' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/dff.v:23]
+INFO: [Synth 8-256] done synthesizing module 'dff' (2#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/dff.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_divider' (3#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/clk_divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'Hor_Count' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Hor_Count.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Hor_Count' (4#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Hor_Count.v:23]
+INFO: [Synth 8-638] synthesizing module 'Vert_Count' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Vert_Count.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Vert_Count' (5#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Vert_Count.v:23]
+INFO: [Synth 8-638] synthesizing module 'Hor_cmp' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Hor_cmp.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Hor_cmp' (6#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Hor_cmp.v:23]
+INFO: [Synth 8-638] synthesizing module 'cmp' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/cmp.v:23]
+INFO: [Synth 8-256] done synthesizing module 'cmp' (7#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/imports/new/cmp.v:23]
+INFO: [Synth 8-638] synthesizing module 'Vert_cmp' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Vert_cmp.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Vert_cmp' (8#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/Vert_cmp.v:23]
+INFO: [Synth 8-638] synthesizing module 'M_stand' [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/M_stand.v:23]
+WARNING: [Synth 8-567] referenced signal 'h' should be on the sensitivity list [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/M_stand.v:33]
+WARNING: [Synth 8-567] referenced signal 'v' should be on the sensitivity list [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/M_stand.v:33]
+INFO: [Synth 8-256] done synthesizing module 'M_stand' (9#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/M_stand.v:23]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (10#1) [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/sources_1/new/VGA_Controller.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 268.059 ; gain = 108.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 268.059 ; gain = 108.125
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc]
+Finished Parsing XDC File [C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 574.547 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "clk_div" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "TC" won't be mapped to RAM because it is too sparse.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 17    
+	   2 Input      3 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VGA_Controller 
+Detailed RTL Component Info : 
+Module ClkDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module dff 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk_divider 
+Detailed RTL Component Info : 
+Module Hor_Count 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Vert_Count 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Hor_cmp 
+Detailed RTL Component Info : 
+Module cmp 
+Detailed RTL Component Info : 
+Module Vert_cmp 
+Detailed RTL Component Info : 
+Module M_stand 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 17    
+	   2 Input      3 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "kitty_poop/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "kitty_poop/clk_div" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "kitty_poop1/TC" won't be mapped to RAM because it is too sparse.
+ROM "kitty_poop2/vCount" won't be mapped to RAM because it is too sparse.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 574.547 ; gain = 414.613
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 574.547 ; gain = 414.613
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    35|
+|4     |LUT2   |    51|
+|5     |LUT3   |    16|
+|6     |LUT4   |    28|
+|7     |LUT5   |    40|
+|8     |LUT6   |   147|
+|9     |FDCE   |    56|
+|10    |IBUF   |     5|
+|11    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+------------+------+
+|      |Instance      |Module      |Cells |
++------+--------------+------------+------+
+|1     |top           |            |   404|
+|2     |  kitty_poop  |ClkDivider  |   112|
+|3     |  kitty_poop0 |clk_divider |     4|
+|4     |    dff_inst0 |dff         |     1|
+|5     |    dff_inst1 |dff_0       |     1|
+|6     |  kitty_poop1 |Hor_Count   |   101|
+|7     |  kitty_poop2 |Vert_Count  |   164|
++------+--------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 414.613
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 574.547 ; gain = 87.996
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 414.613
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 574.547 ; gain = 394.539
+# write_checkpoint -noxdef VGA_Controller.dcp
+# catch { report_utilization -file VGA_Controller_utilization_synth.rpt -pb VGA_Controller_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 574.547 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 17 16:34:05 2015...

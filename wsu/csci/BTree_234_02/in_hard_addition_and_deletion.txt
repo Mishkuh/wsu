@@ -1,0 +1,23 @@
+add,Student A,23
+add,Student B,64
+add,Student C,25
+add,Student D,99
+add,Student E,44
+add,Student F,62
+add,Student G,24
+add,Student H,91
+add,Student I,16
+add,Student J,77
+add,Student K,61
+add,Student L,58
+add,Student M,79
+add,Student N,94
+add,Student O,45
+add,Student P,69
+add,Student Q,19
+add,Student R,22
+add,Student S,89
+add,Student T,88
+remove,44
+remove,62
+remove,45

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Fri Mar 27 19:44:02 2015
+# Process ID: 6444
+# Log file: C:/Users/mikey/Downloads/EE 214/Project 4/project 4.1/Mux 4_1/vivado.log
+# Journal file: C:/Users/mikey/Downloads/EE 214/Project 4/project 4.1/Mux 4_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/mikey/Downloads/EE 214/Project 4/project 4.1/Mux 4_1/Mux 4_1.xpr}
+update_compile_order -fileset sources_1

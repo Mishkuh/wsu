@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Oct 24 13:14:47 2014
+# Process ID: 5429
+# Log file: /home/mikel/Desktop/Shifter_4in/Shifter_4in.runs/impl_1/Shifter_4in.vdi
+# Journal file: /home/mikel/Desktop/Shifter_4in/Shifter_4in.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Shifter_4in.tcl -notrace

@@ -1,0 +1,28 @@
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2014.2/bin/unwrapped/lnx32.o/xelab --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SW_test_behav --prj /home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.sim/sim_1/behav/SW_test.prj xil_defaultlib.SW_test xil_defaultlib.glbl 
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/two_dig_count.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Two_dig_count
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/Four_dig_count.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Four_dig_count
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/imports/new/ClkDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDivider
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SW
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sim_1/new/SW_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SW_test
+INFO: [VRFC 10-165] Analyzing Verilog file "/opt/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDivider
+Compiling module xil_defaultlib.Four_dig_count
+Compiling module xil_defaultlib.Two_dig_count
+Compiling module xil_defaultlib.SW
+Compiling module xil_defaultlib.SW_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SW_test_behav

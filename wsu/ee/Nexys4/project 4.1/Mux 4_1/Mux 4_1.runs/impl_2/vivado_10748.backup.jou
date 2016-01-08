@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Oct 24 01:53:54 2014
+# Process ID: 10498
+# Log file: /home/mikel/Desktop/project_4.1/project_4.1.runs/impl_2/Mux_4_1.vdi
+# Journal file: /home/mikel/Desktop/project_4.1/project_4.1.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source Mux_4_1.tcl -notrace

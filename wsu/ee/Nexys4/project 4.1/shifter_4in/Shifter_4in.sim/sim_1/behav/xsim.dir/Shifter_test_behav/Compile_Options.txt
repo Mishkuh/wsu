@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Shifter_test_behav" --prj "/home/mikel/Desktop/Project 4/Project 4.1/Shifter_4in/Shifter_4in.sim/sim_1/behav/Shifter_test.prj" "xil_defaultlib.Shifter_test" "xil_defaultlib.glbl" 

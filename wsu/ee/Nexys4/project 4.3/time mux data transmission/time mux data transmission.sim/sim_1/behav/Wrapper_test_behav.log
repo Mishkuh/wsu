@@ -1,0 +1,4 @@
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+$finish called at time : 100 ns : File "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sim_1/new/Wrapper_test.v" Line 55
+$finish called at time : 100 ns : File "/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sim_1/new/Wrapper_test.v" Line 55

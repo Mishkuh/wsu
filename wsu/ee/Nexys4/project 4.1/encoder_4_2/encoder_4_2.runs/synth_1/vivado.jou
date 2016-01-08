@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Oct 27 13:06:00 2014
+# Process ID: 3206
+# Log file: /home/mikel/Desktop/Encoder_4_2/Encoder_4_2.runs/synth_1/Encoder_4_2.vds
+# Journal file: /home/mikel/Desktop/Encoder_4_2/Encoder_4_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Encoder_4_2.tcl

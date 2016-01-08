@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Thu Apr 16 20:13:01 2015
+# Process ID: 13420
+# Log file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/xsim.dir/ALU_test_behav/webtalk/xsim_webtalk.tcl -notrace

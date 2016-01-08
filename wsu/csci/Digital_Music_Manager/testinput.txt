@@ -1,0 +1,8 @@
+Artist
+Album
+Song
+Genre
+5
+4
+3
+5

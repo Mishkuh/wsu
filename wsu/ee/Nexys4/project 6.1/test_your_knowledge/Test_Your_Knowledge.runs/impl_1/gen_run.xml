@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1417733599">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="OpCode_mux.vdi"/>
+  <File Type="BG-DRC" Name="OpCode_mux.drc"/>
+  <File Type="BG-BGN" Name="OpCode_mux.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="OpCode_mux.sysdef"/>
+  <File Type="BITSTR-MMI" Name="OpCode_mux.mmi"/>
+  <File Type="BITSTR-BMM" Name="OpCode_mux_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="OpCode_mux.nky"/>
+  <File Type="BITSTR-RBT" Name="OpCode_mux.rbt"/>
+  <File Type="BITSTR-MSK" Name="OpCode_mux.msk"/>
+  <File Type="BG-BIN" Name="OpCode_mux.bin"/>
+  <File Type="BG-BIT" Name="OpCode_mux.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="OpCode_mux_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="OpCode_mux_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="OpCode_mux_postroute_physopt.dcp"/>
+  <File Type="ROUTE-SIMILARITY" Name="OpCode_mux_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="OpCode_mux_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="OpCode_mux_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="OpCode_mux_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="OpCode_mux_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="OpCode_mux_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="OpCode_mux_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="OpCode_mux_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="OpCode_mux_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="OpCode_mux_routed.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="OpCode_mux_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="OpCode_mux_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="OpCode_mux_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="OpCode_mux_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="OpCode_mux_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="OpCode_mux_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="OpCode_mux_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="OpCode_mux_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="OpCode_mux_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="OpCode_mux_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="OpCode_mux_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="OpCode_mux_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="OpCode_mux_pwropt.dcp"/>
+  <File Type="OPT-DRC" Name="OpCode_mux_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="OpCode_mux_opt.dcp"/>
+  <File Type="PA-TCL" Name="OpCode_mux.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1378326382"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Desktop/Nexys4_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu Dec  4 14:52:51 2014
+# Process ID: 21021
+# Log file: /home/mikel/Desktop/Project 6/Project 6.1/Test_Your_Knowledge/Test_Your_Knowledge.runs/impl_1/OpCode_mux.vdi
+# Journal file: /home/mikel/Desktop/Project 6/Project 6.1/Test_Your_Knowledge/Test_Your_Knowledge.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source OpCode_mux.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "OpCode_mux.tcl" line 49)
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  4 14:53:01 2014...

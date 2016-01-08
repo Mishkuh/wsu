@@ -1,0 +1,6 @@
+Opening file in1.txt
+Found grade of 96.8 for student Student A2
+Could not find student: Student B2
+Found grade of 87.1 for student Student B1
+Closing input file
+Done

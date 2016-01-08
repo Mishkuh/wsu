@@ -1,0 +1,15 @@
+add,Student A1,94.5
+add,Student A2,96.8
+add,Student A2,96.8
+add,Student F1,38.9
+add,Student F2,51.2
+add,Student C1,76.9
+add,Student A2,96.8
+add,Student B1,87.1
+add,Student A3,98.8
+add,Student A3,98.8
+add,Student A2,96.8
+add,Student A2,96.8
+lookup,Student A2
+lookup,Student B2
+lookup,Student B1

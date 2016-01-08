@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Thu Apr 16 18:34:35 2015
+# Process ID: 4280
+# Log file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+update_compile_order -fileset sources_1
+eupdate_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v w ]
+add_files -fileset sim_1 C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v
+update_compile_order -fileset sim_1
+set_property top ALU_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subR is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register subcout is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:76]
+ERROR: [VRFC 10-1040] module My_ALU ignored due to previous errors [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+"xvlog -m64 -prj ALU_test_vlog.prj"
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module My_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sim_1/new/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.sim/sim_1/behav'
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 9f8bb4b77aae41e3b05e7a6efd976304 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port S [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/My_ALU.v:44]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:36]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:37]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:38]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:39]
+ERROR: [VRFC 10-426] cannot find port Bout on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:40]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:44]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:45]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:46]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:47]
+ERROR: [VRFC 10-426] cannot find port Bout on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:48]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:52]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:53]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:54]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:55]
+ERROR: [VRFC 10-426] cannot find port Bout on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:56]
+ERROR: [VRFC 10-426] cannot find port A on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:60]
+ERROR: [VRFC 10-426] cannot find port B on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:61]
+ERROR: [VRFC 10-426] cannot find port Bin on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:62]
+ERROR: [VRFC 10-426] cannot find port D on this module [C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.srcs/sources_1/new/Subtractor.v:63]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '' file for more information.

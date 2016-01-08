@@ -1,0 +1,56 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (lin32) Build 932637 Wed Jun 11 13:12:44 MDT 2014
+| Date         : Wed Dec  3 11:34:05 2014
+| Host         : SKYNET running 32-bit Ubuntu 12.04.5 LTS
+| Command      : report_drc
+-----------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+           Max violations: <unlimited>
+         Violations found: 3
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net kitty_poop1/n_0_Q[7]_i_2 is a gated clock net sourced by a combinational pin kitty_poop1/Q[7]_i_2/O, cell kitty_poop1/Q[7]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT kitty_poop1/Q[7]_i_2 is driving clock pin of 8 cells. This could lead to large hold time violations. First few involved cells are:
+    kitty_poop1/Q_reg[4] {FDCE}
+    kitty_poop1/Q_reg[5] {FDCE}
+    kitty_poop1/Q_reg[6] {FDCE}
+    kitty_poop1/Q_reg[7] {FDCE}
+    kitty_poop1/Q_reg[2] {FDCE}
+
+Related violations: <none>
+
+

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Oct 31 18:20:29 2014
+# Process ID: 13211
+# Log file: /home/mikel/Desktop/7_seg_disp/7_seg_disp.runs/impl_1/wrapper.vdi
+# Journal file: /home/mikel/Desktop/7_seg_disp/7_seg_disp.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source wrapper.tcl -notrace

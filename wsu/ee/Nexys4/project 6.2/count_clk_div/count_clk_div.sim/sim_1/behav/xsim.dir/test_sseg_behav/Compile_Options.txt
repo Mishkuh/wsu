@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "test_sseg_behav" --prj "/home/mikel/Desktop/Project 6.2/Count_clk_div/Count_clk_div.sim/sim_1/behav/test_sseg.prj" "xil_defaultlib.test_sseg" "xil_defaultlib.glbl" 

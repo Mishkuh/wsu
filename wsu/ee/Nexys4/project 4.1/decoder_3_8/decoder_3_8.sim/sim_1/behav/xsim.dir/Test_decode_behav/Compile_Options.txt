@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Test_decode_behav" --prj "/home/mikel/Desktop/Project 4/Project 4.1/Decoder_3_8/Decoder_3_8.sim/sim_1/behav/Test_decode.prj" "xil_defaultlib.Test_decode" "xil_defaultlib.glbl" 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1414440766">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="Encoder_4_2.vdi"/>
+  <File Type="BG-DRC" Name="Encoder_4_2.drc"/>
+  <File Type="BG-BGN" Name="Encoder_4_2.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Encoder_4_2.sysdef"/>
+  <File Type="BITSTR-MMI" Name="Encoder_4_2.mmi"/>
+  <File Type="BITSTR-BMM" Name="Encoder_4_2_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Encoder_4_2.nky"/>
+  <File Type="BITSTR-RBT" Name="Encoder_4_2.rbt"/>
+  <File Type="BITSTR-MSK" Name="Encoder_4_2.msk"/>
+  <File Type="BG-BIN" Name="Encoder_4_2.bin"/>
+  <File Type="BG-BIT" Name="Encoder_4_2.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Encoder_4_2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Encoder_4_2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Encoder_4_2_postroute_physopt.dcp"/>
+  <File Type="ROUTE-SIMILARITY" Name="Encoder_4_2_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Encoder_4_2_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Encoder_4_2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Encoder_4_2_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Encoder_4_2_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Encoder_4_2_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Encoder_4_2_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Encoder_4_2_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Encoder_4_2_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Encoder_4_2_routed.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Encoder_4_2_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Encoder_4_2_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Encoder_4_2_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Encoder_4_2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Encoder_4_2_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Encoder_4_2_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Encoder_4_2_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Encoder_4_2_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Encoder_4_2_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Encoder_4_2_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Encoder_4_2_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="Encoder_4_2_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Encoder_4_2_pwropt.dcp"/>
+  <File Type="OPT-DRC" Name="Encoder_4_2_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Encoder_4_2_opt.dcp"/>
+  <File Type="PA-TCL" Name="Encoder_4_2.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1378326382"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

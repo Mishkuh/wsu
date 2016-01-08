@@ -1,0 +1,14 @@
+header
+push 10
+push -6
+push 5
+display
+reverse
+display
+pop
+reverse
+display
+isempty
+pop
+pop
+isempty

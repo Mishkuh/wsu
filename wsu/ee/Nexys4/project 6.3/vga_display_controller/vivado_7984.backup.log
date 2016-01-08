@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Fri Apr 17 16:33:05 2015
+# Process ID: 8820
+# Log file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.xpr}
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller'
+INFO: [Project 1-313] Project file moved from '/home/mikel/Desktop/Project 6/Project 6.3/VGA_Display_controller' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'VGA_Display_controller.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 671.035 ; gain = 95.484
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 17 16:33:34 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.runs/synth_1/runme.log
+[Fri Apr 17 16:33:34 2015] Launched impl_1...
+Run output will be captured here: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 17 20:34:27 2015...

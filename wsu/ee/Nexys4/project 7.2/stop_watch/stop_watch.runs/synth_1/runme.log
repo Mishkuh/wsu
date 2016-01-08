@@ -1,0 +1,358 @@
+
+*** Running vivado
+    with args -log SW.vds -m32 -mode batch -messageDb vivado.pb -source SW.tcl
+
+
+****** Vivado v2014.2
+  **** SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+  **** IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source SW.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# set_msg_config -id {Labtools 27-147} -limit 4294967295
+# create_project -in_memory -part xc7a100tcsg324-1
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml, The board part 'xc7z045ffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/zynq/zc706/0.9/board_part.xml, The board part 'xc7z045ffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml, The board part 'xc7k325tffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml, The board part 'xc7k325tffg900-2' is either not supported or invalid.
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# read_verilog -library xil_defaultlib {
+#   {/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/two_dig_count.v}
+#   {/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/Four_dig_count.v}
+#   {/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/imports/new/ClkDivider.v}
+#   {/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v}
+# }
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/two_dig_count.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/Four_dig_count.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/imports/new/ClkDivider.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v]
+# read_xdc {{/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc}}
+# set_property used_in_implementation false [get_files {{/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc}}]
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir {/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.cache/wt} [current_project]
+# set_property parent.project_dir {/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch} [current_project]
+# catch { write_hwdef -file SW.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top SW -part xc7a100tcsg324-1
+Command: synth_design -top SW -part xc7a100tcsg324-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 506.762 ; gain = 98.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SW' [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v:23]
+	Parameter S0 bound to: 3'b000 
+	Parameter S1 bound to: 3'b001 
+	Parameter S2 bound to: 3'b011 
+	Parameter S3 bound to: 3'b111 
+	Parameter S4 bound to: 3'b110 
+INFO: [Synth 8-638] synthesizing module 'ClkDivider' [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/imports/new/ClkDivider.v:23]
+	Parameter constantNumber bound to: 50000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClkDivider' (1#1) [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/imports/new/ClkDivider.v:23]
+INFO: [Synth 8-638] synthesizing module 'Four_dig_count' [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/Four_dig_count.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Four_dig_count' (2#1) [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/Four_dig_count.v:23]
+INFO: [Synth 8-638] synthesizing module 'Two_dig_count' [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/two_dig_count.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Two_dig_count' (3#1) [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/two_dig_count.v:23]
+WARNING: [Synth 8-151] case item 3'b111 is unreachable [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v:142]
+WARNING: [Synth 8-151] case item 3'b110 is unreachable [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v:146]
+INFO: [Synth 8-256] done synthesizing module 'SW' (4#1) [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v:23]
+WARNING: [Synth 8-3917] design SW has port an[7] driven by constant 1
+WARNING: [Synth 8-3917] design SW has port an[6] driven by constant 1
+WARNING: [Synth 8-3917] design SW has port an[5] driven by constant 1
+WARNING: [Synth 8-3917] design SW has port an[4] driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 532.645 ; gain = 123.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+Loading clock regions from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /opt/Xilinx/Vivado/2014.2/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/ConfigModes.xml
+
+Processing XDC Constraints
+Parsing XDC File [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc]
+Finished Parsing XDC File [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 651.652 ; gain = 242.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 651.652 ; gain = 242.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 651.652 ; gain = 242.945
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'nState_reg' [/home/mikel/Desktop/Project 7/Project 7.2/Stop_watch/Stop_watch.srcs/sources_1/new/SW.v:113]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  11 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 7     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SW 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  11 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 2     
+Module ClkDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Four_dig_count 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+Module Two_dig_count 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 655.656 ; gain = 246.949
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design SW has port an[7] driven by constant 1
+WARNING: [Synth 8-3917] design SW has port an[6] driven by constant 1
+WARNING: [Synth 8-3917] design SW has port an[5] driven by constant 1
+WARNING: [Synth 8-3917] design SW has port an[4] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 655.656 ; gain = 246.949
+---------------------------------------------------------------------------------
+Finished Parallel Reinfer  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 655.656 ; gain = 246.949
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 667.688 ; gain = 258.980
+---------------------------------------------------------------------------------
+Finished Parallel Area Opt  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 667.688 ; gain = 258.980
+Finished Parallel Section  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 667.688 ; gain = 258.980
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 703.684 ; gain = 294.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 703.684 ; gain = 294.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 709.695 ; gain = 300.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:01:02 . Memory (MB): peak = 709.699 ; gain = 300.992
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:01:02 . Memory (MB): peak = 709.699 ; gain = 300.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:01:02 . Memory (MB): peak = 709.699 ; gain = 300.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |    23|
+|4     |LUT2   |     8|
+|5     |LUT3   |     4|
+|6     |LUT4   |    17|
+|7     |LUT5   |    18|
+|8     |LUT6   |    13|
+|9     |FDCE   |    39|
+|10    |LD     |     2|
+|11    |IBUF   |     5|
+|12    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+---------------+------+
+|      |Instance      |Module         |Cells |
++------+--------------+---------------+------+
+|1     |top           |               |   150|
+|2     |  kitty_poop1 |Four_dig_count |    49|
+|3     |  kitty_poop2 |Two_dig_count  |    12|
++------+--------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:01:02 . Memory (MB): peak = 709.699 ; gain = 300.992
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:01:02 . Memory (MB): peak = 709.699 ; gain = 300.992
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:00 . Memory (MB): peak = 709.699 ; gain = 233.934
+# write_checkpoint SW.dcp
+# report_utilization -file SW_utilization_synth.rpt -pb SW_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.24 . Memory (MB): peak = 709.699 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 13 02:09:09 2014...

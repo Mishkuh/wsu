@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Thu Apr 16 18:41:26 2015
+# Process ID: 12812
+# Log file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/vivado.log
+# Journal file: C:/Users/mikey/Documents/EE214/VivadoProjects/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mikey/Documents/EE214/VivadoProjects/ALU/ALU.xpr
+launch_simulation
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+run all
+close_sim
+launch_simulation
+launch_simulation
+source ALU_test.tcl
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+source ALU_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source ALU_test.tcl
+run all
+add_wave {{/ALU_test/goTime}} 
+restart
+run all
+close_sim
+launch_simulation
+source ALU_test.tcl
+run all
+close_sim

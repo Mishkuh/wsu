@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Oct 31 14:20:07 2014
+# Process ID: 6411
+# Log file: /home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.runs/synth_1/wrapper.vds
+# Journal file: /home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source wrapper.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml, The board part 'xc7z045ffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/zynq/zc706/0.9/board_part.xml, The board part 'xc7z045ffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml, The board part 'xc7k325tffg900-2' is either not supported or invalid.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /opt/Xilinx/Vivado/2014.2/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml, The board part 'xc7k325tffg900-2' is either not supported or invalid.
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# read_verilog -library xil_defaultlib {
+#   {/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/Mux_4_1.v}
+#   {/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v}
+#   {/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v}
+#   {/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/counter.v}
+#   {/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/wrapper.v}
+# }
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/Mux_4_1.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/counter.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/wrapper.v]
+# read_xdc {{/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc}}
+# set_property used_in_implementation false [get_files {{/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc}}]
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir {/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.cache/wt} [current_project]
+# set_property parent.project_dir {/home/mikel/Desktop/Time Mux Data Transmission} [current_project]
+# catch { write_hwdef -file wrapper.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top wrapper -part xc7a100tcsg324-1
+Command: synth_design -top wrapper -part xc7a100tcsg324-1
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 506.758 ; gain = 98.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'wrapper' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/wrapper.v:23]
+INFO: [Synth 8-638] synthesizing module 'counter' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'counter' (1#1) [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux_4_1' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/Mux_4_1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux_4_1' (2#1) [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/Mux_4_1.v:23]
+INFO: [Synth 8-638] synthesizing module 'DeMux_4_2' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DeMux_4_2' (3#1) [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v:23]
+INFO: [Synth 8-638] synthesizing module 'latch' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:23]
+WARNING: [Synth 8-567] referenced signal 'S' should be on the sensitivity list [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:32]
+INFO: [Synth 8-256] done synthesizing module 'latch' (4#1) [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:23]
+INFO: [Synth 8-256] done synthesizing module 'wrapper' (5#1) [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/wrapper.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 532.641 ; gain = 123.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+Loading clock regions from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /opt/Xilinx/Vivado/2014.2/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/Vivado/2014.2/data/parts/xilinx/artix7/ConfigModes.xml
+
+Processing XDC Constraints
+Parsing XDC File [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc]
+Finished Parsing XDC File [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/constrs_1/imports/Desktop/Nexys4_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 651.648 ; gain = 242.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 651.648 ; gain = 242.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 651.648 ; gain = 242.945
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'Y0_reg' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'Y1_reg' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/De-Mux_4_2.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'O0_reg' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'O1_reg' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'O2_reg' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'O3_reg' [/home/mikel/Desktop/Time Mux Data Transmission/Time Mux Data Transmission.srcs/sources_1/new/latch.v:41]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module wrapper 
+Detailed RTL Component Info : 
+Module counter 
+Detailed RTL Component Info : 
+Module Mux_4_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module DeMux_4_2 
+Detailed RTL Component Info : 
+Module latch 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 655.652 ; gain = 246.949
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 655.652 ; gain = 246.949
+---------------------------------------------------------------------------------
+Finished Parallel Reinfer  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 655.652 ; gain = 246.949
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 667.684 ; gain = 258.980
+---------------------------------------------------------------------------------
+Finished Parallel Area Opt  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 667.684 ; gain = 258.980
+Finished Parallel Section  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 667.684 ; gain = 258.980
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 702.680 ; gain = 293.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 702.680 ; gain = 293.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.691 ; gain = 299.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.695 ; gain = 299.992
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.695 ; gain = 299.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.695 ; gain = 299.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |    28|
+|4     |LUT2   |     4|
+|5     |LUT3   |     3|
+|6     |LUT4   |     1|
+|7     |LUT5   |     3|
+|8     |LUT6   |     3|
+|9     |FDRE   |    28|
+|10    |LD     |     6|
+|11    |IBUF   |     5|
+|12    |OBUF   |     5|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+----------+------+
+|      |Instance        |Module    |Cells |
++------+----------------+----------+------+
+|1     |top             |          |    94|
+|2     |  input_counter |counter   |    77|
+|3     |  output_demux  |DeMux_4_2 |     2|
+|4     |  output_latch  |latch     |     4|
++------+----------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.695 ; gain = 299.992
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.695 ; gain = 299.992
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  LD => LDCE: 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 708.695 ; gain = 232.934
+# write_checkpoint wrapper.dcp
+# report_utilization -file wrapper_utilization_synth.rpt -pb wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.17 . Memory (MB): peak = 708.695 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 31 14:20:59 2014...

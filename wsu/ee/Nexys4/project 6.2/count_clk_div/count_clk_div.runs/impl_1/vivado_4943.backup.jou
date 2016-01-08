@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2
+# SW Build 932637 on Wed Jun 11 13:12:44 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Wed Dec  3 11:23:49 2014
+# Process ID: 4691
+# Log file: /home/mikel/Desktop/Project 6/Project 6.2/Count_clk_div/Count_clk_div.runs/impl_1/Wrapper.vdi
+# Journal file: /home/mikel/Desktop/Project 6/Project 6.2/Count_clk_div/Count_clk_div.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Wrapper.tcl -notrace

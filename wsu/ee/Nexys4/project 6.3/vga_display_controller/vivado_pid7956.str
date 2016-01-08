@@ -1,0 +1,134 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+Process ID: 7956
+
+Current time: 	4/29/15 3:40:11 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	mikey
+User directory: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: C:/Users/mikey/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/mikey/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 430 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.xpr} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller' 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+38715kb) [00:00:05]
+// [Engine Memory]: 358 MB (+223689kb) [00:00:05]
+// [Engine Memory]: 387 MB (+30117kb) [00:00:06]
+// [GUI Memory]: 47 MB (+8176kb) [00:00:06]
+// [Engine Memory]: 411 MB (+26169kb) [00:00:06]
+// [Engine Memory]: 421 MB (+10469kb) [00:00:07]
+// [GUI Memory]: 50 MB (+3228kb) [00:00:08]
+// Tcl Message: open_project {C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller/VGA_Display_controller.xpr} 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 430 MB (+9031kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 430 MB. GUI used memory: 30 MB. Current time: 4/29/15 3:40:12 PM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 440 MB (+10776kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 449 MB (+9023kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 449 MB (+266kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 450 MB (+864kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: VGA_Display_controller; location: C:/Users/mikey/Documents/EE214/EE 214/Project 6/project 6.3/vga_display_controller; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 745.801 ; gain = 183.863 
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 451 MB (+1495kb) [00:00:12]
+// [Engine Memory]: 453 MB (+1736kb) [00:00:14]
+// [GUI Memory]: 50 MB (+176kb) [00:00:17]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v)]", 1, true); // u:k (I:JPanel, ch:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop - ClkDivider (ClkDivider.v)]", 2, false); // u:k (I:JPanel, ch:JFrame)
+// [GUI Memory]: 51 MB (+196kb) [00:00:19]
+// [GUI Memory]: 52 MB (+2027kb) [00:00:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop - ClkDivider (ClkDivider.v)]", 2, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 54 MB (+1262kb) [00:00:24]
+// [Engine Memory]: 454 MB (+831kb) [00:00:24]
+selectCodeEditor("ClkDivider.v", 124, 348); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 55 MB (+1894kb) [00:00:29]
+// [GUI Memory]: 60 MB (+4859kb) [00:00:31]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v)]", 3, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v)]", 3, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v), dff_inst0 - dff (dff.v)]", 4, false); // u:k (I:JPanel, ch:JFrame)
+// [Engine Memory]: 454 MB (+528kb) [00:00:32]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v), dff_inst1 - dff (dff.v)]", 5, false); // u:k (I:JPanel, ch:JFrame)
+// [Engine Memory]: 456 MB (+1392kb) [00:00:33]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v), dff_inst0 - dff (dff.v)]", 4, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v), dff_inst0 - dff (dff.v)]", 4, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 63 MB (+2702kb) [00:00:34]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v), dff_inst1 - dff (dff.v)]", 5, false); // u:k (I:JPanel, ch:JFrame)
+// [GUI Memory]: 66 MB (+3494kb) [00:00:35]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v), dff_inst1 - dff (dff.v)]", 5, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [Engine Memory]: 461 MB (+5963kb) [00:00:35]
+// [Engine Memory]: 470 MB (+9465kb) [00:00:36]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v)]", 3, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop0 - clk_divider (clk_divider.v)]", 3, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop - ClkDivider (ClkDivider.v)]", 2, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_Controller (VGA_Controller.v), kitty_poop - ClkDivider (ClkDivider.v)]", 2, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 68 MB (+2472kb) [00:00:38]
+// [Engine Memory]: 471 MB (+876kb) [00:00:38]
+selectCodeEditor("ClkDivider.v", 75, 584); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ClkDivider.v", 47, 364); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ClkDivider.v", 62, 552); // bi:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "ClkDivider.v", 'c'); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 72 MB (+4004kb) [00:01:26]
+// [Engine Memory]: 485 MB (+14430kb) [00:01:29]
+// Elapsed time: 41 seconds
+selectCodeEditor("ClkDivider.v", 136, 290); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 87 MB (+15467kb) [00:01:31]
+// [Engine Memory]: 490 MB (+5468kb) [00:01:31]
+selectCodeEditor("ClkDivider.v", 190, 296); // bi:J (JPanel:JComponent, ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 490 MB. GUI used memory: 37 MB. Current time: 4/29/15 3:41:37 PM
+// Elapsed time: 31 seconds
+selectCodeEditor("ClkDivider.v", 216, 338); // bi:J (JPanel:JComponent, ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 490 MB. GUI used memory: 39 MB. Current time: 4/29/15 4:11:40 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 490 MB. GUI used memory: 36 MB. Current time: 4/29/15 4:41:43 PM
+// [Engine Memory]: 491 MB (+696kb) [01:04:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 491 MB. GUI used memory: 34 MB. Current time: 4/29/15 8:05:59 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 491 MB. GUI used memory: 34 MB. Current time: 4/29/15 8:39:35 PM

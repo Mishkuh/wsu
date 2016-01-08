@@ -1,0 +1,83 @@
+node:Canada:Ottawa
+node:Alabama:Montgomery
+node:Alaska:Juneau
+node:Arizona:Phoenix
+node:Arkansas:Little Rock
+node:California:Sacramento
+node:Colorado:Denver
+node:Connecticut:Hartford
+node:Delaware:Dover
+node:Florida:Tallahassee
+node:Georgia:Atlanta
+node:Hawaii:Honolulu
+node:Idaho:Boise
+node:Illinois:Springfield
+node:Indiana:Indianapolis
+node:Iowa:Des Moines
+node:Kansas:Topeka
+node:Kentucky:Frankfort
+node:Louisiana:Baton Rouge
+node:Maine:Augusta
+node:Maryland:Annapolis
+node:Massachusetts:Boston
+node:Michigan:Lansing
+node:Minnesota:St. Paul
+node:Mississippi:Jackson
+node:Missouri:Jefferson City
+node:Montana:Helena
+node:Nebraska:Lincoln
+node:Nevada:Carson City
+node:New Hampshire:Concord
+node:New Jersey:Trenton
+node:New Mexico:Santa Fe
+node:New York:Albany
+node:North Carolina:Raleigh
+node:North Dakota:Bismarck
+node:Ohio:Columbus
+node:Oklahoma:Oklahoma City
+node:Oregon:Salem
+node:Pennsylvania:Harrisburg
+node:Rhode Island:Providence
+node:South Carolina:Columbia
+node:South Dakota:Pierre
+node:Tennessee:Nashville
+node:Texas:Austin
+node:Utah:Salt Lake City
+node:Vermont:Montpelier
+node:Virginia:Richmond
+node:Washington:Olympia
+node:West Virginia:Charleston
+node:Wisconsin:Madison
+node:Wyoming:Cheyenne
+edge2:Washington,Idaho
+edge2:Washington,Oregon
+edge2:Oregon,Idaho
+edge2:Oregon,Nevada
+edge2:Oregon,California
+edge2:California,Nevada
+edge2:California,Arizona
+edge2:Idaho,Montana
+edge2:Idaho,Wyoming
+edge2:Idaho,Utah
+edge2:Idaho,Nevada
+edge2:Nevada,Utah
+edge2:Nevada,Arizona
+edge2:Arizona,Utah
+edge2:Arizona,New Mexico
+edge2:Montana,North Dakota
+edge2:Montana,South Dakota
+edge2:Montana,Wyoming
+edge2:Utah,Wyoming
+edge2:Utah,Colorado
+// Border patrol will let us go from US to Canada but not the other way around
+edge:Washington,Canada
+edge:Idaho,Canada
+edge:Montana,Canada
+edge:North Dakota,Canada
+get_degree:Nevada
+display_shortest_path:California,Utah
+display_shortest_path:Washington,New Mexico
+display_shortest_path:Montana,Washington
+display_shortest_path_capitals:Washington,New Mexico
+display_shortest_path_capitals:Arizona,Canada
+display_shortest_path_capitals:Canada,Arizona
