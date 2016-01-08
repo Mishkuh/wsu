@@ -1,0 +1,1 @@
+This is a collection of projects I have completed during my time at Washington State University.
